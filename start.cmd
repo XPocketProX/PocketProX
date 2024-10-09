@@ -1,5 +1,5 @@
 @echo off
-TITLE PocketMine-MP Minecraft PE server
+TITLE PocketProX Minecraft BE server
 COLOR 0F
 mode con: cols=90
 cd /d %~dp0

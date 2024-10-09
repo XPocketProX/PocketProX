@@ -7,10 +7,10 @@ mv ./php5/bin/php ./bin/php
 rm -r -f ./php5/
 fi
 if [ -f ./bin/php ]; then
-./bin/php -d enable_dl=On PocketMine-MP.php $@
+./bin/php -d enable_dl=On PocketProX.php $@
 read -p "Press [Enter] to continue..."
 exit 0
 fi
-php -d enable_dl=On PocketMine-MP.php $@
+php -d enable_dl=On PocketProX.php $@
 read -p "Press [Enter] to continue..."
 exit 0
