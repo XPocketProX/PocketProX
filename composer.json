@@ -1,0 +1,22 @@
+{
+    "name": "xppx/pocketprox",
+    "type": "project",
+    "require": {
+        "ext-sockets": "*",
+        "ext-yaml": "*",
+        "php": "^8",
+        "php-64bit": "^8",
+        "ramsey/uuid": "^4.7",
+        "pocketmine/binaryutils": "^0.2.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PocketProX\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.12",
+        "phpunit/phpunit": "^11.4"
+    }
+}

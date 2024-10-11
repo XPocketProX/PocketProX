@@ -1,0 +1,8 @@
+parameters:
+  level: max
+  paths:
+    - src
+  excludes_analyse:
+    - %currentWorkingDirectory%/src/Generated/*
+  ignoreErrors:
+    - '#Call to an undefined method .*#'
